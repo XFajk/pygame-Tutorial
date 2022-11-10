@@ -6,7 +6,7 @@ ZOOM = 1
 WS = (800,600)
 DS = (WS[0]/ZOOM,WS[1]/ZOOM)
 
-window = pygame.display.set_mode()
+window = pygame.display.set_mode(WS)
 display = pygame.Surface(DS)
 
 clock = pygame.time.Clock()
